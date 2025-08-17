@@ -7,6 +7,7 @@ import (
 	"time"
 )
 
+// Атомарный флаг
 func main() {
 	var (
 		wg   sync.WaitGroup
